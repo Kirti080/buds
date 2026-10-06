@@ -1,4 +1,4 @@
-// Intentional syntax error for checking build failures: missing closing parenthesis.
-export function greet(name {
+// Create a greeting for the supplied name.
+export function greet(name) {
   return `Hello, ${name}!`;
 }
