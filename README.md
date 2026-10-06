@@ -1,6 +1,6 @@
 # Everyday
 
-A simple to-do app built with HTML, CSS, and JavaScript. Exactly **10 project files**, with no dependencies to install.
+A simple to-do app built with HTML, CSS, and JavaScript. **13 project files**, with no dependencies to install.
 
 ## Run
 
@@ -23,7 +23,7 @@ Open **http://localhost:3000** in your browser. Stop the server with Ctrl+C. Use
 
 Tasks stay on this browser and device. Clearing browser storage removes them. There are no accounts or cloud sync.
 
-## The 10 files
+## The 13 files
 
 | File | Purpose |
 | --- | --- |
@@ -37,3 +37,6 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 | package.json | Start command and project metadata |
 | README.md | Setup and usage |
 | .gitignore | Files excluded from version control |
+| .editorconfig | Shared editor formatting settings |
+| CONTRIBUTING.md | Development and verification instructions |
+| CHANGELOG.md | Project change history |
