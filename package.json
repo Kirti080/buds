@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A simple ten-file to-do app with no dependencies.",
+  "description": "A simple to-do app with no dependencies.",
   "scripts": { "start": "node server.js" },
   "engines": { "node": ">=22" }
 }
