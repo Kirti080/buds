@@ -1,6 +1,6 @@
 # Everyday
 
-A simple to-do app built with HTML, CSS, and JavaScript. **17 project files**, with no dependencies to install.
+A simple to-do app built with HTML, CSS, and JavaScript. **19 project files**, with no dependencies to install.
 
 ## Run
 
@@ -27,11 +27,13 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 
 Run `npm run build` to syntax-check all JavaScript files in the project root. The rough-notes.js and rough-widget.js files are valid placeholders for future development and are not imported by the app.
 
+The build intentionally fails on syntax errors in broken-counter.js and broken-greeting.js. Fix or remove both files to restore a passing build. Neither file is imported by the app.
+
 ## Just for fun
 
 Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robot.txt to meet the ASCII mascot.
 
-## The 17 files
+## The 19 files
 
 | File | Purpose |
 | --- | --- |
@@ -52,3 +54,5 @@ Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robo
 | rough-widget.js | Widget placeholder |
 | fortune-cookie.js | Random terminal fortune |
 | tiny-robot.txt | ASCII robot mascot |
+| broken-counter.js | Intentional missing-value syntax error |
+| broken-greeting.js | Intentional missing-parenthesis syntax error |
