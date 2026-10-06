@@ -1,7 +1,7 @@
-// Intentionally broken practice file: missing values and malformed syntax.
-export const draftTasks = ;
+// Simple planner example: a day is ready when it has at least one task.
+export const draftTasks = [];
 
-export function planDay(tasks {
-  const total = tasks.length + ;
-  return { total, ready: };
+export function planDay(tasks = draftTasks) {
+  const total = tasks.length;
+  return { total, ready: total > 0 };
 }
