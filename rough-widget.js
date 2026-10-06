@@ -1,4 +1,4 @@
-// Intentionally unfinished draft: the missing parenthesis fails the build.
-export function roughWidget( {
+// Widget placeholder for future development.
+export function roughWidget() {
   return 'Work in progress';
 }

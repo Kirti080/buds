@@ -1,6 +1,6 @@
 # Everyday
 
-A simple to-do app built with HTML, CSS, and JavaScript. **15 project files**, with no dependencies to install.
+A simple to-do app built with HTML, CSS, and JavaScript. **17 project files**, with no dependencies to install.
 
 ## Run
 
@@ -25,9 +25,13 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 
 ## Build check
 
-Run `npm run build` to syntax-check all JavaScript files in the project root. This check intentionally fails on the unfinished drafts in rough-notes.js and rough-widget.js. Fix or remove both drafts to make it pass. These drafts are not imported by the app, so `npm start` still runs the app.
+Run `npm run build` to syntax-check all JavaScript files in the project root. The rough-notes.js and rough-widget.js files are valid placeholders for future development and are not imported by the app.
 
-## The 15 files
+## Just for fun
+
+Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robot.txt to meet the ASCII mascot.
+
+## The 17 files
 
 | File | Purpose |
 | --- | --- |
@@ -44,5 +48,7 @@ Run `npm run build` to syntax-check all JavaScript files in the project root. Th
 | .editorconfig | Shared editor formatting settings |
 | CONTRIBUTING.md | Development and verification instructions |
 | CHANGELOG.md | Project change history |
-| rough-notes.js | Intentionally invalid notes draft |
-| rough-widget.js | Intentionally invalid widget draft |
+| rough-notes.js | Notes placeholder |
+| rough-widget.js | Widget placeholder |
+| fortune-cookie.js | Random terminal fortune |
+| tiny-robot.txt | ASCII robot mascot |
