@@ -1,6 +1,6 @@
 # Everyday
 
-A simple to-do app built with HTML, CSS, and JavaScript. **13 project files**, with no dependencies to install.
+A simple to-do app built with HTML, CSS, and JavaScript. **15 project files**, with no dependencies to install.
 
 ## Run
 
@@ -23,7 +23,11 @@ Open **http://localhost:3000** in your browser. Stop the server with Ctrl+C. Use
 
 Tasks stay on this browser and device. Clearing browser storage removes them. There are no accounts or cloud sync.
 
-## The 13 files
+## Build check
+
+Run `npm run build` to syntax-check all JavaScript files in the project root. This check intentionally fails on the unfinished drafts in rough-notes.js and rough-widget.js. Fix or remove both drafts to make it pass. These drafts are not imported by the app, so `npm start` still runs the app.
+
+## The 15 files
 
 | File | Purpose |
 | --- | --- |
@@ -40,3 +44,5 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 | .editorconfig | Shared editor formatting settings |
 | CONTRIBUTING.md | Development and verification instructions |
 | CHANGELOG.md | Project change history |
+| rough-notes.js | Intentionally invalid notes draft |
+| rough-widget.js | Intentionally invalid widget draft |
