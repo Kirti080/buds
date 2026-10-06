@@ -1,6 +1,6 @@
 # Everyday
 
-A simple to-do app built with HTML, CSS, and JavaScript. **19 project files**, with no dependencies to install.
+A simple to-do app built with HTML, CSS, and JavaScript. **21 project files**, with no dependencies to install.
 
 ## Run
 
@@ -27,13 +27,15 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 
 Run `npm run build` to syntax-check all JavaScript files in the project root. The rough-notes.js and rough-widget.js files are valid placeholders for future development and are not imported by the app.
 
+The rough-planner.js and rough-timer.js files are valid examples for summarizing a daily task list and initializing timer state. Neither is imported by the app.
+
 The syntax errors in broken-counter.js and broken-greeting.js have been fixed. These example modules export an initial counter value and a greeting function. Neither file is imported by the app.
 
 ## Just for fun
 
 Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robot.txt to meet the ASCII mascot.
 
-## The 19 files
+## The 21 files
 
 | File | Purpose |
 | --- | --- |
@@ -56,3 +58,5 @@ Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robo
 | tiny-robot.txt | ASCII robot mascot |
 | broken-counter.js | Initial counter value |
 | broken-greeting.js | Greeting function |
+| rough-planner.js | Daily task count and readiness example |
+| rough-timer.js | Timer-state example with a 60-second default |
