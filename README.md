@@ -27,7 +27,7 @@ Tasks stay on this browser and device. Clearing browser storage removes them. Th
 
 Run `npm run build` to syntax-check all JavaScript files in the project root. The rough-notes.js and rough-widget.js files are valid placeholders for future development and are not imported by the app.
 
-The new rough-planner.js and rough-timer.js practice files intentionally contain multiple syntax errors, so the build currently fails. Fix or remove both to restore a passing build. Neither is imported by the app.
+The rough-planner.js practice file intentionally contains multiple syntax errors, so the build currently fails. Fix or remove it to restore a passing build. The rough-timer.js file is now a valid timer-state example. Neither is imported by the app.
 
 The syntax errors in broken-counter.js and broken-greeting.js have been fixed. These example modules export an initial counter value and a greeting function. Neither file is imported by the app.
 
@@ -59,4 +59,4 @@ Run `node fortune-cookie.js` for a random encouraging message, or open tiny-robo
 | broken-counter.js | Initial counter value |
 | broken-greeting.js | Greeting function |
 | rough-planner.js | Intentionally broken planner practice file |
-| rough-timer.js | Intentionally broken timer practice file |
+| rough-timer.js | Timer-state example with a 60-second default |
